@@ -1,4 +1,7 @@
 import "jest-location-mock";
+import mockConsole from "jest-mock-console";
+
+mockConsole()
 
 // Object.defineProperty(global, 'localStorage', {
 //   value: {
